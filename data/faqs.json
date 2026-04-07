@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is this meetup about?",
+    "answer": "This meetup is about connecting developers and designers in the local tech community.",
+    "image": "/images/faq1.png",
+    "video": null,
+    "badge": "PHOTO"
+  },
+  {
+    "id": 2,
+    "question": "Where and when does it happen?",
+    "answer": "The meetup happens every second Tuesday at the downtown tech hub from 6-8 PM.",
+    "image": "/images/faq1.png",
+    "video": null,
+    "badge": "NATURE"
+  },
+  {
+    "id": 3,
+    "question": "How much does it cost to attend?",
+    "answer": "Attendance is completely free for all participants.",
+    "image": "/images/faq1.png",
+    "video": null,
+    "badge": "NATURE"
+  },
+  {
+    "id": 4,
+    "question": "Can I bring a friend?",
+    "answer": "Absolutely! Feel free to bring friends, colleagues, or anyone interested in tech.",
+    "image": "/images/faq1.png",
+    "video": null,
+    "badge": "PHOTO"
+  },
+  {
+    "id": 5,
+    "question": "What should I prepare for the meetup?",
+    "answer": "Just bring your enthusiasm! We'll have networking activities and presentations.",
+    "image": "/images/faq1.png",
+    "video": null,
+    "badge": "NATURE"
+  }
+]

@@ -1,0 +1,42 @@
+<svg width="1600" height="850" viewBox="0 0 1600 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9F7FA" />
+      <stop offset="100%" stop-color="#D8EAF5" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#EDF7FB" stop-opacity="0.95" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8CCFDA" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="850" rx="0" fill="url(#bg)" />
+  <path d="M1540 0C1500 120 1420 220 1300 290C1180 360 980 410 810 460C640 510 520 560 420 650C320 740 220 820 0 850V0H1540Z" fill="#C6EFF6" opacity="0.65" />
+  <circle cx="1350" cy="200" r="220" fill="url(#softGlow)" />
+  <path d="M1290 190C1250 140 1180 120 1120 150C1060 180 1040 250 1080 300C1120 350 1210 340 1260 300C1310 260 1290 220 1290 190Z" fill="#DEF1F7" opacity="0.9" />
+  <path d="M1310 230C1280 190 1210 180 1160 210C1110 240 1100 290 1135 320C1170 350 1230 345 1275 310C1320 275 1310 245 1310 230Z" fill="#ADE2E9" opacity="0.84" />
+  <path d="M1240 150C1200 120 1130 120 1090 150C1050 180 1045 220 1080 250C1115 280 1180 275 1220 245C1260 215 1250 175 1240 150Z" fill="#F9FFFE" opacity="0.9" />
+
+  <g opacity="0.6">
+    <path d="M1320 510C1380 540 1420 610 1470 680" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" />
+    <path d="M1280 600C1340 620 1400 680 1470 730" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+    <path d="M1110 750C1170 770 1230 785 1310 760" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+  </g>
+
+  <rect x="140" y="80" width="1320" height="270" rx="40" fill="rgba(255,255,255,0.85)" />
+  <rect x="160" y="100" width="110" height="70" rx="20" fill="#0B3B48" />
+  <path d="M180 130L205 150L230 120" stroke="#D9F2F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M180 120L205 140L230 110" stroke="#D9F2F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="290" y="150" font-family="Inter, sans-serif" font-size="36" fill="#0B3B48" font-weight="700">Habuild</text>
+  <rect x="160" y="200" width="240" height="48" rx="24" fill="#F7931E" />
+  <text x="190" y="233" font-family="Inter, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700">OFFLINE COMMUNITY</text>
+  <text x="160" y="290" font-family="Inter, sans-serif" font-size="84" fill="#0B3B48" font-weight="800">YOGA MEETUP</text>
+
+  <rect x="140" y="380" width="1320" height="400" rx="36" fill="url(#cardBg)" stroke="#D7F0F4" stroke-width="1.5" />
+  <text x="200" y="450" font-family="Inter, sans-serif" font-size="44" fill="#0B3B48" font-weight="800">What is this meetup about?</text>
+  <text x="200" y="510" font-family="Inter, sans-serif" font-size="22" fill="#4C6B76" letter-spacing="0.01em">A calming FAQ card layout with matched brand styling and consistent</text>
+  <text x="200" y="540" font-family="Inter, sans-serif" font-size="22" fill="#4C6B76" letter-spacing="0.01em">spacing. Perfect for offline community event content.</text>
+</svg>

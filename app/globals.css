@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: pan-y;
+}
+
+/* Swiper Carousel Styles */
+.faq-swiper {
+  width: 100%;
+  height: 100%;
+  --swiper-theme-color: #f97316;
+  --swiper-navigation-size: 24px;
+  padding: 0 !important;
+}
+
+.faq-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.faq-swiper .swiper-wrapper {
+  padding-bottom: 60px;
+}
+
+/* Pagination Bullets */
+.faq-swiper .swiper-pagination {
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  z-index: 10;
+}
+
+.faq-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0 3px;
+}
+
+.faq-swiper .swiper-pagination-bullet-active {
+  background: #f97316;
+  width: 20px;
+  border-radius: 4px;
+}
+
+/* Touch Optimization for Mobile/WhatsApp */
+.faq-swiper {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: pan-y;
+}
+
+.faq-swiper .swiper-slide {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Prevent text selection during swipe */
+.faq-swiper * {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Custom Navigation Buttons */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  z-index: 20;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper-button-prev-custom:focus,
+.swiper-button-next-custom:focus {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* Video Player Styling */
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #1e293b;
+}
+
+video::-webkit-media-controls {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Loading Spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+
+  .faq-swiper .swiper-slide {
+    padding-bottom: 80px;
+  }
+
+  .faq-swiper .swiper-pagination {
+    bottom: 20px;
+  }
+}
+
+/* WhatsApp In-App Browser Optimization */
+@supports (-webkit-appearance: none) {
+  /* iOS Safari */
+  html {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+}

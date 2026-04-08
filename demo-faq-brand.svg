@@ -1,0 +1,37 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6F8F7" />
+      <stop offset="100%" stop-color="#D9EEFA" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6FBFA" />
+      <stop offset="100%" stop-color="#E1F2F4" />
+    </linearGradient>
+    <radialGradient id="petalGlow" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0%" stop-color="#F7FFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#77C8D0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGradient)" />
+  <path d="M1200 0C1400 120 1500 320 1480 540C1460 760 1300 900 1100 900C900 900 780 760 720 560C660 360 740 120 940 0H1200Z" fill="#D7F0F5" opacity="0.9" />
+  <ellipse cx="1140" cy="500" rx="280" ry="280" fill="url(#petalGlow)" />
+  <g opacity="0.75">
+    <path d="M1190 350C1140 300 1060 290 1010 340C960 390 980 460 1030 500C1080 540 1160 530 1210 490C1260 450 1240 400 1190 350Z" fill="#B8E8E8" />
+    <path d="M1220 390C1170 340 1090 330 1040 380C990 430 1010 500 1060 540C1110 580 1190 570 1240 530C1290 490 1270 440 1220 390Z" fill="#DAF3F7" />
+    <path d="M1160 320C1120 280 1060 270 1020 305C980 340 990 390 1030 420C1070 450 1130 440 1170 410C1210 380 1200 340 1160 320Z" fill="#F1FCFC" />
+  </g>
+  <path d="M1300 160C1350 210 1360 290 1330 360C1300 430 1220 500 1110 540" stroke="#A7E0E4" stroke-width="18" stroke-linecap="round" opacity="0.45" />
+  <path d="M1350 220C1370 270 1360 340 1320 400C1280 460 1190 520 1080 560" stroke="#C5EFF2" stroke-width="14" stroke-linecap="round" opacity="0.35" />
+
+  <rect x="120" y="120" width="1200" height="160" rx="36" fill="rgba(255,255,255,0.95)" />
+  <text x="160" y="190" font-family="Inter, sans-serif" font-size="42" fill="#0B3B48" font-weight="700">Habuild</text>
+  <rect x="160" y="210" width="220" height="46" rx="23" fill="#F6A34A" />
+  <text x="186" y="242" font-family="Inter, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700">OFFLINE COMMUNITY</text>
+  <text x="160" y="300" font-family="Inter, sans-serif" font-size="86" fill="#0B3B48" font-weight="800">YOGA MEETUP</text>
+
+  <rect x="160" y="410" width="1180" height="340" rx="32" fill="url(#cardGradient)" stroke="#D3EEF3" stroke-width="1.5" />
+  <text x="200" y="470" font-family="Inter, sans-serif" font-size="48" fill="#0B3B48" font-weight="800">What is this meetup about?</text>
+  <text x="200" y="530" font-family="Inter, sans-serif" font-size="24" fill="#38636A" letter-spacing="0.01em">A short wellness FAQ card that keeps the look consistent with</text>
+  <text x="200" y="564" font-family="Inter, sans-serif" font-size="24" fill="#38636A" letter-spacing="0.01em">the page background, colors, and spacing.</text>
+</svg>

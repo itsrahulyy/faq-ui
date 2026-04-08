@@ -1,0 +1,45 @@
+<svg width="960" height="380" viewBox="0 0 960 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="380" rx="24" fill="url(#bg)" />
+  <text x="60" y="50" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0F172A">Card color suggestions</text>
+  <text x="60" y="80" font-family="Inter, sans-serif" font-size="14" fill="#475569">Pick one of these color styles for the FAQ card background.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="110" width="280" height="240" rx="28" fill="#0F172A" />
+    <rect x="40" y="110" width="280" height="80" rx="24" fill="#0EA5E9" opacity="0.15" />
+    <text x="60" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Option 1</text>
+    <text x="60" y="180" font-family="Inter, sans-serif" font-size="12" fill="#94A3B8">Dark slate premium</text>
+    <rect x="60" y="205" width="220" height="18" rx="8" fill="#F59E0B" />
+    <text x="60" y="255" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">How do I join?</text>
+    <text x="60" y="290" font-family="Inter, sans-serif" font-size="13" fill="#CBD5E1">Get access to offline meetups and community events.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="340" y="110" width="280" height="240" rx="28" fill="#0F766E" />
+    <rect x="340" y="110" width="280" height="80" rx="24" fill="#BBF7D0" opacity="0.22" />
+    <text x="360" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#ECFDF5">Option 2</text>
+    <text x="360" y="180" font-family="Inter, sans-serif" font-size="12" fill="#94A3B8">Fresh teal vibe</text>
+    <rect x="360" y="205" width="220" height="18" rx="8" fill="#FBBF24" />
+    <text x="360" y="255" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#ECFDF5">What is the schedule?</text>
+    <text x="360" y="290" font-family="Inter, sans-serif" font-size="13" fill="#D1FAE5">Explore weekly events and city meetups.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="640" y="110" width="280" height="240" rx="28" fill="#F59E0B" />
+    <rect x="640" y="110" width="280" height="80" rx="24" fill="#FFF7ED" opacity="0.25" />
+    <text x="660" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Option 3</text>
+    <text x="660" y="180" font-family="Inter, sans-serif" font-size="12" fill="#475569">Warm amber energy</text>
+    <rect x="660" y="205" width="220" height="18" rx="8" fill="#0F172A" />
+    <text x="660" y="255" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#0F172A">Is it free?</text>
+    <text x="660" y="290" font-family="Inter, sans-serif" font-size="13" fill="#334155">Yes — most sessions are free for members.</text>
+  </g>
+</svg>

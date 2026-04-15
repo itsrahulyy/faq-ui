@@ -26,16 +26,16 @@ export default function FaqCard({ faq, index, total }) {
   };
 
   return (
-    <div className="faq-card bg-transparent border border-white/10 rounded-2xl shadow-2xl overflow-hidden w-full max-w-2xl flex flex-col h-[82vh] sm:h-auto sm:max-h-none">
+    <div className="faq-card bg-transparent border border-white/10 rounded-2xl shadow-2xl overflow-hidden w-full max-w-2xl flex flex-col h-[58vh] sm:h-auto sm:max-h-none">
       {/* Content Container */}
-      <div className="content p-5 sm:p-6 flex-shrink-0 bg-teal-900 text-white backdrop-blur-xl">
-        <div className="text-orange-500 text-sm font-bold mb-3">QUESTION {index}</div>
-        <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">{faq.question}</h3>
+      <div className="content p-4 sm:p-6 flex-shrink-0 bg-teal-900 text-white backdrop-blur-xl">
+        <div className="text-white-500 text-sm font-bold mb-3">QUESTION {index}</div>
+        <h3 className="text-3xl sm:text-3xl font-bold text-white mb-3 leading-tight">{faq.question}</h3>
         <p className="text-teal-100 text-sm sm:text-base leading-relaxed sm:leading-7">{faq.answer}</p>
       </div>
 
       {/* Media Container */}
-      <div className="media-container relative bg-slate-600/40 flex-1 min-h-[52vh] sm:min-h-[18rem] flex items-center justify-center overflow-hidden">
+      <div className="media-container relative bg-slate-600/40 flex-1 min-h-[45vh] sm:min-h-[16rem] flex items-center justify-center overflow-hidden">
         {mediaError && !hasVideo && !hasImage ? (
           <div className="w-full h-full flex items-center justify-center text-gray-400 px-4">
             <p className="text-center">Media unavailable</p>
@@ -71,7 +71,7 @@ export default function FaqCard({ faq, index, total }) {
           <img
             src={faq.image}
             alt={faq.question}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             loading="lazy"
             onError={handleImageError}
           />

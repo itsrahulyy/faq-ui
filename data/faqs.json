@@ -38,5 +38,30 @@
     "image": "/images/5.png",
     "video": null,
     "badge": ""
+  },{
+    "id": 6,
+    "question": "",
+    "answer": "",
+    "image": "/images/6.png",
+    "video": null,
+    "badge": ""
+  },
+  {
+    "id": 7,
+    "question": "",
+    "answer": "",
+    "image": "/images/7.png",
+    "video": null,
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "question": "",
+    "answer": "",
+    "image": "/images/8.png",
+    "video": null,
+    "badge": ""
   }
+
+
 ]

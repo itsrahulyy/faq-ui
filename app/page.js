@@ -31,7 +31,7 @@ export default function Home() {
       <main className="relative max-w-4xl mx-auto min-h-screen flex flex-col justify-start pt-6 pb-12 sm:pt-10 sm:pb-16">
         <div className="flex flex-col items-center justify-center mb-8 sm:mb-10 gap-4">
           <img src="/habuild-logo.webp" alt="Habuild logo" className="h-16 sm:h-20" />
-          <div className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-[0.22em] text-[#F7931E] uppercase">
+          <div className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-[0.25em] text-[#f7811e] uppercase">
             OFFLINE COMMUNITY
           </div>
         </div>
